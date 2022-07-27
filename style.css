@@ -1,0 +1,9 @@
+:root {
+  --primary: #ec9b3b;
+  --secondary: #f24c4c;
+  --dark: #293462;
+  --light: #ffe4c0;
+}
+.navbar {
+  background-color: var(--dark);
+}
