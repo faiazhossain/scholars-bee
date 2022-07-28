@@ -10,7 +10,8 @@ body {
 }
 .courses-section,
 .about-section,
-.success-stories {
+.success-stories,
+.trusted-company {
   background-color: white;
 }
 .navbar {
@@ -53,6 +54,11 @@ body {
   font-weight: bold;
   transition: 1s;
   transform: scale(1.05, 1.05);
+}
+.join-section {
+  margin-bottom: 1rem;
+  padding: 6rem 2rem;
+  background-color: var(--light);
 }
 
 .students-container {

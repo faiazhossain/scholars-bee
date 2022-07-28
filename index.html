@@ -185,11 +185,11 @@
     <!-- Carousel ends -->
     <!-- =========================== Header Part Ends =========================== -->
     <!-- =========================== Main Part starts =========================== -->
-    <main class="d-flex flex-column container">
+    <main class="d-flex flex-column container align-items-center">
       <!-- Courses section starts -->
       <section class="courses-section rounded shadow p-5 mt-lg-4">
         <div>
-          <h2>Upgrade your skill from this Amaging courses</h2>
+          <h2>Upgrade your skill from this Amazing courses</h2>
           <p>
             Take one of
             <span class="text-warning fw-bold">Scholar's bee's</span>
@@ -202,13 +202,13 @@
         <div class="container text-center">
           <div class="row g-2">
             <!-- card 1 -->
-            <div class="col-12 col-md-6 col-lg-4">
+            <div class="col-12 col-md-12 col-lg-6">
               <div class="card-item card mb-3 me-3" style="max-width: 540px">
                 <div class="row g-0">
                   <div class="col-md-4">
                     <img
                       src="Images/course/course-1.png"
-                      class="img-fluid h-100 rounded-start"
+                      class="w-100 h-100 rounded-start"
                       alt="..."
                     />
                   </div>
@@ -225,13 +225,13 @@
               </div>
             </div>
             <!-- card 2 -->
-            <div class="col-12 col-md-6 col-lg-4">
+            <div class="col-12 col-md-12 col-lg-6">
               <div class="card-item card mb-3 me-3" style="max-width: 540px">
                 <div class="row g-0">
                   <div class="col-md-4">
                     <img
                       src="Images/course/course-2.png"
-                      class="img-fluid h-100 rounded-start"
+                      class="w-100 h-100 rounded-start"
                       alt="..."
                     />
                   </div>
@@ -246,13 +246,13 @@
               </div>
             </div>
             <!-- card 3 -->
-            <div class="col-12 col-md-6 col-lg-4">
+            <div class="col-12 col-md-12 col-lg-6">
               <div class="card-item card mb-3 me-3" style="max-width: 540px">
                 <div class="row g-0">
                   <div class="col-md-4">
                     <img
                       src="Images/course/course-3.png"
-                      class="img-fluid h-100 rounded-start"
+                      class="w-100 h-100 rounded-start"
                       alt="..."
                     />
                   </div>
@@ -269,13 +269,13 @@
               </div>
             </div>
             <!-- card 4 -->
-            <div class="col-12 col-md-6 col-lg-4">
+            <div class="col-12 col-md-12 col-lg-6">
               <div class="card-item card mb-3 me-3" style="max-width: 540px">
                 <div class="row g-0">
                   <div class="col-md-4">
                     <img
                       src="Images/course/course-4.png"
-                      class="img-fluid h-100 rounded-start"
+                      class="w-100 h-100 rounded-start"
                       alt="..."
                     />
                   </div>
@@ -292,13 +292,13 @@
               </div>
             </div>
             <!-- card 5 -->
-            <div class="col-12 col-md-6 col-lg-4">
+            <div class="col-12 col-md-12 col-lg-6">
               <div class="card-item card mb-3 me-3" style="max-width: 540px">
                 <div class="row g-0">
                   <div class="col-md-4">
                     <img
                       src="Images/course/course-5.png"
-                      class="img-fluid h-100 rounded-start"
+                      class="w-100 h-100 rounded-start"
                       alt="..."
                     />
                   </div>
@@ -315,13 +315,13 @@
               </div>
             </div>
             <!-- card 6 -->
-            <div class="col-12 col-md-6 col-lg-4">
+            <div class="col-12 col-md-12 col-lg-6">
               <div class="card-item card mb-3 me-3" style="max-width: 540px">
                 <div class="row g-0">
                   <div class="col-md-4">
                     <img
                       src="Images/course/course-6.png"
-                      class="img-fluid h-100 rounded-start"
+                      class="w-100 h-100 rounded-start"
                       alt="..."
                     />
                   </div>
@@ -378,19 +378,100 @@
           <button class="btn mt-lg-4 btn-warning">Read More</button>
         </div>
       </section>
+      <!-- ready to join -->
+      <section class="container shadow rounded row join-section">
+        <div class="col-lg-8">
+          <h2>Register to enjoy the sea of courses!</h2>
+          <p>
+            To enjoy our courses you need to Resister first. Also there are some
+            free courses
+          </p>
+        </div>
+        <!-- Button trigger modal -->
+        <button
+          type="button"
+          class="btn btn-warning col-lg-4"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+        >
+          Register Now
+        </button>
 
+        <!-- Modal -->
+        <div
+          class="modal fade"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label"
+                      >Email address</label
+                    >
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="exampleInputEmail1"
+                      aria-describedby="emailHelp"
+                    />
+                    <div id="emailHelp" class="form-text">
+                      We'll never share your email with anyone else.
+                    </div>
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label"
+                      >Password</label
+                    >
+                    <input
+                      type="password"
+                      class="form-control"
+                      id="exampleInputPassword1"
+                    />
+                  </div>
+                  <div class="mb-3 form-check">
+                    <input
+                      type="checkbox"
+                      class="form-check-input"
+                      id="exampleCheck1"
+                    />
+                    <label class="form-check-label" for="exampleCheck1"
+                      >Check me out</label
+                    >
+                  </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- modal ends -->
+      </section>
       <!-- Success stories -->
       <section
         class="success-stories d-flex flex-column border rounded p-4 shadow mb-4"
       >
-        <h2>Our Successfull students</h2>
+        <h2>Our Successful students</h2>
         <p>
-          Here are some of the Successfull students who did the hard work and we
+          Here are some of the Successful students who did the hard work and we
           gave the roadmap.
         </p>
         <div class="d-flex flex-column flex-md-row justify-content-between g-2">
-          <div class="row row-cols-1 row-cols-md-4 g-4">
-            <div class="col">
+          <div class="row g-4">
+            <div class="col-12 col-md-6 col-lg-3">
               <div class="card students-container">
                 <img
                   src="Images/student/student-1.png"
@@ -403,7 +484,7 @@
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col-12 col-md-6 col-lg-3">
               <div class="card students-container">
                 <img
                   src="Images/student/student-2.png"
@@ -416,7 +497,7 @@
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col-12 col-md-6 col-lg-3">
               <div class="card students-container">
                 <img
                   src="Images/student/student-3.png"
@@ -429,7 +510,7 @@
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col-12 col-md-6 col-lg-3">
               <div class="card students-container">
                 <img
                   src="Images/student/student-4.png"
@@ -464,6 +545,7 @@
           </p>
         </div>
         <div class="accordion" id="accordionPanelsStayOpenExample">
+          <!-- accordion 1 -->
           <div class="accordion-item">
             <h2 class="accordion-header" id="panelsStayOpen-headingOne">
               <button
@@ -474,7 +556,7 @@
                 aria-expanded="true"
                 aria-controls="panelsStayOpen-collapseOne"
               >
-                Accordion Item #1
+                What are the differences between flex and grid?
               </button>
             </h2>
             <div
@@ -483,18 +565,20 @@
               aria-labelledby="panelsStayOpen-headingOne"
             >
               <div class="accordion-body">
-                <strong>This is the first item's accordion body.</strong> It is
-                shown by default, until the collapse plugin adds the appropriate
-                classes that we use to style each element. These classes control
-                the overall appearance, as well as the showing and hiding via
-                CSS transitions. You can modify any of this with custom CSS or
-                overriding our default variables. It's also worth noting that
-                just about any HTML can go within the
-                <code>.accordion-body</code>, though the transition does limit
-                overflow.
+                The basic difference between
+                <strong> CSS Grid Layout and CSS Flexbox Layout </strong> is
+                that flexbox was designed for layout in one dimension - either a
+                row or a column. Grid was designed for two-dimensional layout -
+                rows, and columns at the same time. In addition to the
+                one-dimensional versus two-dimensional distinction, there is
+                another way to decide if you should use flexbox or grid for a
+                layout. Flexbox works from the content out. An ideal use case
+                for flexbox is when you have a set of items and want to space
+                them out evenly in a container.
               </div>
             </div>
           </div>
+          <!-- accordion 2 -->
           <div class="accordion-item">
             <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
               <button
@@ -505,7 +589,7 @@
                 aria-expanded="false"
                 aria-controls="panelsStayOpen-collapseTwo"
               >
-                Accordion Item #2
+                What are the differences between bootstrap and tailwind?
               </button>
             </h2>
             <div
@@ -514,18 +598,21 @@
               aria-labelledby="panelsStayOpen-headingTwo"
             >
               <div class="accordion-body">
-                <strong>This is the second item's accordion body.</strong> It is
-                hidden by default, until the collapse plugin adds the
-                appropriate classes that we use to style each element. These
-                classes control the overall appearance, as well as the showing
-                and hiding via CSS transitions. You can modify any of this with
-                custom CSS or overriding our default variables. It's also worth
-                noting that just about any HTML can go within the
-                <code>.accordion-body</code>, though the transition does limit
-                overflow.
+                The main difference between
+                <strong> TailwindCSS and Bootstrap </strong> is that Tailwind
+                CSS is not a UI kit. Unlike UI kits such as Bootstrap, Bulma,
+                and Foundation, Tailwind CSS doesn't have a default theme or
+                built-in UI components. Instead, it comes with predesigned
+                widgets you can use to build your site from scratch. Bootstrap
+                is known for its responsiveness, whereas proponents of Tailwind
+                CSS typically value the framework's customizability. The best
+                choice for you depends on your priorities and project
+                requirements, but let's talk about why Tailwind CSS is quickly
+                gaining popularity and more widespread use.
               </div>
             </div>
           </div>
+          <!-- accordion 3 -->
           <div class="accordion-item">
             <h2 class="accordion-header" id="panelsStayOpen-headingThree">
               <button
@@ -536,7 +623,7 @@
                 aria-expanded="false"
                 aria-controls="panelsStayOpen-collapseThree"
               >
-                Accordion Item #3
+                What is CSS Box Model?
               </button>
             </h2>
             <div
@@ -545,62 +632,77 @@
               aria-labelledby="panelsStayOpen-headingThree"
             >
               <div class="accordion-body">
-                <strong>This is the third item's accordion body.</strong> It is
-                hidden by default, until the collapse plugin adds the
-                appropriate classes that we use to style each element. These
-                classes control the overall appearance, as well as the showing
-                and hiding via CSS transitions. You can modify any of this with
-                custom CSS or overriding our default variables. It's also worth
-                noting that just about any HTML can go within the
-                <code>.accordion-body</code>, though the transition does limit
-                overflow.
+                In CSS, the term <strong> "box model" </strong> is used when
+                talking about design and layout. The CSS box model is
+                essentially a box that wraps around every HTML element. It
+                consists of: margins, borders, padding, and the actual content.
               </div>
             </div>
           </div>
+          <!-- accordion 4 -->
           <div class="accordion-item">
-            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+            <h2 class="accordion-header" id="panelsStayOpen-headingFour">
               <button
                 class="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#panelsStayOpen-collapseThree"
+                data-bs-target="#panelsStayOpen-collapseFour"
                 aria-expanded="false"
-                aria-controls="panelsStayOpen-collapseThree"
+                aria-controls="panelsStayOpen-collapseFour"
               >
-                Accordion Item #4
+                What is a semantic tag?
               </button>
             </h2>
             <div
-              id="panelsStayOpen-collapseThree"
+              id="panelsStayOpen-collapseFour"
               class="accordion-collapse collapse"
-              aria-labelledby="panelsStayOpen-headingThree"
+              aria-labelledby="panelsStayOpen-headingFour"
             >
               <div class="accordion-body">
-                <strong>This is the third item's accordion body.</strong> It is
-                hidden by default, until the collapse plugin adds the
-                appropriate classes that we use to style each element. These
-                classes control the overall appearance, as well as the showing
-                and hiding via CSS transitions. You can modify any of this with
-                custom CSS or overriding our default variables. It's also worth
-                noting that just about any HTML can go within the
-                <code>.accordion-body</code>, though the transition does limit
-                overflow.
+                Semantic HTML elements are those that clearly describe their
+                meaning in a human- and machine-readable way. Elements such as
+                header ,footer and article are all considered semantic because
+                they accurately describe the purpose of the element and the type
+                of content that is inside them.
               </div>
             </div>
           </div>
         </div>
       </section>
       <!-- Accordion Ends -->
+
+      <!-- Trusted Companies start -->
+      <section
+        class="trusted-company d-none d-lg-block mb-4 shadow rounded p-4"
+      >
+        <div class="d-flex flex-column align-items-center">
+          <h2>Trusted by over 200+ companies</h2>
+          <div
+            class="d-flex w-100 flex-wrap justify-content-between align-items-center"
+          >
+            <img class="img-fluid" src="/Images/company/company-1.png" alt="" />
+            <img class="img-fluid" src="/Images/company/company-2.png" alt="" />
+            <img class="img-fluid" src="/Images/company/company-3.png" alt="" />
+            <img class="img-fluid" src="/Images/company/company-4.png" alt="" />
+            <img class="img-fluid" src="/Images/company/company-5.png" alt="" />
+            <img class="img-fluid" src="/Images/company/company-6.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <!-- Trusted Companies end -->
     </aside>
     <!-- =========================== aside Part Ends =========================== -->
     <!-- =========================== footer Part starts =========================== -->
     <footer class="container-fluid">
       <div class="container d-flex flex-column align-items-center">
         <h1>Scholars Bee</h1>
-        <p>house 7, Road 2/4 mirpur Dhaka, Bangladesh.</p>
+        <p>house 7, Road 2/4 mirpur 11 Dhaka, Bangladesh.</p>
         <p>Privacy Policy | Terms of Use</p>
         <div class="social-icons">
-          <a class="text-warning" href="https://www.facebook.com/"
+          <a
+            class="text-warning"
+            target="_blank"
+            href="https://www.facebook.com/"
             ><svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -613,7 +715,10 @@
                 d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"
               /></svg
           ></a>
-          <a class="text-warning" href="https://www.instagram.com/"
+          <a
+            class="text-warning"
+            target="_blank"
+            href="https://www.instagram.com/"
             ><svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -626,7 +731,10 @@
                 d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
               /></svg
           ></a>
-          <a class="text-warning" href="https://www.linkedin.com/feed/"
+          <a
+            class="text-warning"
+            target="_blank"
+            href="https://www.linkedin.com/feed/"
             ><svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -639,7 +747,7 @@
                 d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"
               /></svg
           ></a>
-          <a class="text-warning" href="https://twitter.com/"
+          <a class="text-warning" target="_blank" href="https://twitter.com/"
             ><svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
