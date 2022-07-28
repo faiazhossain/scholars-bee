@@ -16,12 +16,12 @@
   <body>
     <!-- =========================== Header Part starts =========================== -->
     <!-- Navbar Starts -->
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg fixed-top">
       <div class="container">
         <a class="navbar-brand text-warning" href="#"> Scholars Bee</a>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <ul class="navbar-nav mx-lg-auto mb-2 mb-lg-0">
-            <li class="nav-item">
+          <ul class="navbar-nav ms-lg-auto mb-1 mb-lg-0">
+            <li class="nav-item me-5">
               <a
                 class="nav-link active text-warning fw-bold"
                 aria-current="page"
@@ -29,23 +29,26 @@
                 >Home</a
               >
             </li>
-            <li class="nav-item">
+            <li class="nav-item me-5">
               <a class="nav-link text-warning" href="#">Courses</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item me-5">
               <a class="nav-link text-warning">Deals</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item me-5">
               <a class="nav-link text-warning">Success</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item me-5">
               <a class="nav-link text-warning">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-warning">Sign-in</a>
             </li>
           </ul>
-          <button class="btn btn-outline-warning ms-auto" type="submit">
+          <button
+            class="btn btn-outline-warning ms-auto mb-2 mb-lg-0"
+            type="submit"
+          >
             Resister
           </button>
         </div>
@@ -64,8 +67,270 @@
       </div>
     </nav>
     <!-- Navbar Ends -->
+
+    <!-- Carousel starts -->
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="false"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <!-- first carousel -->
+        <div class="carousel-item active">
+          <div class="carousel-items">
+            <img
+              src="Images/cover/cover-1.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-block">
+              <h5 class="d-none d-md-block">Quality Learning</h5>
+              <p class="d-none d-md-block">
+                We believe that high-quality learning can achive by our website
+                and we will ensure that your learning will be fun.
+              </p>
+              <div class="slider-btn">
+                <button class="btn btn-outline-warning">Get Started</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- second carousel -->
+        <div class="carousel-item">
+          <img src="Images/cover/cover-2.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-block">
+            <h5 class="d-none d-md-block">Quality Teaching</h5>
+            <p class="d-none d-md-block">
+              Our teachers are highly qualitiful and very helpful as well,they
+              will be beside you at your any course related concern.
+            </p>
+            <div class="slider-btn">
+              <button class="btn btn-outline-warning">Get Started</button>
+            </div>
+          </div>
+        </div>
+        <!-- third carousel -->
+        <div class="carousel-item">
+          <img src="Images/cover/cover-3.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-block">
+            <h5 class="d-none d-md-block">Digital Education</h5>
+            <p class="d-none d-md-block">
+              In this world of digitalisation people are more internet friendly
+              also learning through internet is very popular. Here you will find
+              the best.
+            </p>
+            <div class="slider-btn">
+              <button class="btn btn-outline-warning">Get Started</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- Carousel ends -->
     <!-- =========================== Header Part Ends =========================== -->
     <!-- =========================== Main Part starts =========================== -->
+    <main class="d-flex flex-column container">
+      <!-- Courses section starts -->
+
+      <section class="courses-section shadow p-2 mt-lg-4">
+        <div>
+          <h2>Upgrade your skill from this Amaging courses</h2>
+          <p>
+            Take one of
+            <span class="text-warning fw-bold">Scholar's bee's</span>
+            range of courses and learn amazing skillset.
+          </p>
+        </div>
+
+        <!-- gutter -->
+
+        <div class="container text-center">
+          <div class="row g-2">
+            <!-- card 1 -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card-item card mb-3 me-3" style="max-width: 540px">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img
+                      src="Images/course/course-1.png"
+                      class="img-fluid h-100 rounded-start"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">UI/UX</h5>
+                      <p class="card-text">
+                        Learn UI/UX and become a designer.
+                      </p>
+                      <span class="fs-5 fw-bold">Price: 20$</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- card 2 -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card-item card mb-3 me-3" style="max-width: 540px">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img
+                      src="Images/course/course-2.png"
+                      class="img-fluid h-100 rounded-start"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Javascript</h5>
+                      <p class="card-text">Learn js and become a programmer.</p>
+                      <span class="fs-5 fw-bold">Price: 20$</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- card 3 -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card-item card mb-3 me-3" style="max-width: 540px">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img
+                      src="Images/course/course-3.png"
+                      class="img-fluid h-100 rounded-start"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Excel</h5>
+                      <p class="card-text">
+                        Learn Excel and become a analyzer.
+                      </p>
+                      <span class="fs-5 fw-bold">Price: 20$</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- card 4 -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card-item card mb-3 me-3" style="max-width: 540px">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img
+                      src="Images/course/course-4.png"
+                      class="img-fluid h-100 rounded-start"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Logo Design</h5>
+                      <p class="card-text">
+                        Learn logo design and become a logo master.
+                      </p>
+                      <span class="fs-5 fw-bold">Price: 20$</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- card 5 -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card-item card mb-3 me-3" style="max-width: 540px">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img
+                      src="Images/course/course-5.png"
+                      class="img-fluid h-100 rounded-start"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Photography</h5>
+                      <p class="card-text">
+                        Learn Photography and become a photographer.
+                      </p>
+                      <span class="fs-5 fw-bold">Price: 20$</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- card 6 -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card-item card mb-3 me-3" style="max-width: 540px">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img
+                      src="Images/course/course-6.png"
+                      class="img-fluid h-100 rounded-start"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Motion graphics</h5>
+                      <p class="card-text">
+                        Learn Motion graphics and become a motion master.
+                      </p>
+                      <span class="fs-5 fw-bold">Price: 20$</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card container -->
+        </div>
+        <div class="d-flex justify-content-center mt-lg-2">
+          <button class="btn btn-warning">View More</button>
+        </div>
+      </section>
+      <!-- Courses section ends -->
+    </main>
     <!-- =========================== Main Part Ends =========================== -->
     <!-- =========================== Footer Part starts =========================== -->
     <!-- =========================== Footer Part Ends =========================== -->
