@@ -64,6 +64,20 @@ body {
 .students-container {
   background-color: var(--light);
 }
+
+.feedback-img {
+  width: 50px;
+  height: 50px;
+}
+.quotation h1,
+.quotation p {
+  color: rgb(104, 104, 104);
+  font-family: "Times New Roman", Times, serif;
+}
+.quotation svg {
+  width: 1rem;
+  color: var(--primary);
+}
 footer {
   background-color: var(--dark);
   padding: 4rem 0;
@@ -75,4 +89,23 @@ footer h1 {
 .social-icons {
   display: flex;
   gap: 20px;
+}
+.feedback-one,
+.feedback-two {
+  position: relative;
+}
+
+.fa-circle-chevron-left {
+  display: block;
+  position: absolute;
+  left: -14px;
+  top: 50%;
+  font-size: 2rem;
+}
+.fa-circle-chevron-right {
+  display: block;
+  position: absolute;
+  right: -14px;
+  top: 50%;
+  font-size: 2rem;
 }
