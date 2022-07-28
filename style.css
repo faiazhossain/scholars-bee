@@ -58,3 +58,15 @@ body {
 .students-container {
   background-color: var(--light);
 }
+footer {
+  background-color: var(--dark);
+  padding: 4rem 0;
+  color: white;
+}
+footer h1 {
+  color: var(--primary);
+}
+.social-icons {
+  display: flex;
+  gap: 20px;
+}
